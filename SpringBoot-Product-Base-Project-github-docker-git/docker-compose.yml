@@ -7,7 +7,11 @@ services:
       MYSQL_ROOT_PASSWORD: rootroot
       MYSQL_DATABASE: microdb
     ports:
+<<<<<<< HEAD
       - "3303:3306"  #  Host:Container → MySQL exposed on 3303 externally
+=======
+      - "3306:3306"  #  Host:Container → MySQL exposed on 3303 externally
+>>>>>>> 9a863f9 (first commit)
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
